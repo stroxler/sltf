@@ -1,0 +1,10 @@
+[package]
+name = "sltf"
+version = "0.1.0"
+authors = ["Steven Troxler <steven.troxler@gmail.com>"]
+
+[workspace]
+
+[dependencies]
+sltf_parse = {path = "sltf_parse"}
+sltf_vm = {path = "sltf_vm"}
